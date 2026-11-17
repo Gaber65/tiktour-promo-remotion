@@ -1,0 +1,20 @@
+{
+  "name": "tiktour-promo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "remotion preview src/index.ts",
+    "build": "remotion render src/index.ts TikTourPromo out/tiktour_promo.mp4",
+    "render-poc": "remotion render src/index.ts HookPOC out/hook_poc.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.544",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "4.0.544"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "typescript": "^5.4.5"
+  }
+}

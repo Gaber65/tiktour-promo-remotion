@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Production / Render Outputs
+out/
+dist/
+build/
+*.mp4
+!public/**/*.mp4
+
+# Environment & Sensitive Keys
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Remotion Cache
+.remotion/
+
+# OS and Editor Files
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
